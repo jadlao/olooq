@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    width: 100%;
+    font-family: Lato, sans-serif;
+    font-weight: normal;
+    color: #585858;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.slide {
+    padding: 200px;
+    margin: 0 auto;
+}
+
+/* Transition arrow */
+.arrow-down {
+    margin: 0 auto 0 auto;
+    padding: 200px;
+    position: fixed;
+}
+
+#mushrooms {
+    text-align: center;
+    background: url('../img/bg_mushrooms.jpg');
+}
+
+.hero {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+#logo {
+    width: 200px;
+    position: relative;
+}
+
+#onions {
+    background: url('../img/bg_onions.jpg');
+    text-align: left;
+}
+
+#lemons {
+    background: url('../img/bg_limesnlemons.jpg');
+    text-align: right;
+}
+
+#last {
+    text-align: center;
+    background: url('../img/pineapple.jpg');
+}
+
+/* Search bar code */
+#last input {
+    height: 60px;
+    width: 350px;
+    border-radius: 6px;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#last button {
+    height: 60px;
+    width: 80px;
+    border-radius: 6px;
+    font-size: 18px;
+    background-color: #47e077;
+    color: #585858;
+}
