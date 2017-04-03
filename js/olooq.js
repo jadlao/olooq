@@ -1,4 +1,3 @@
-// Main js script file for website pages (not landing page)
 // Smooth scroll to any anchor specified
 $('a[href^="#"]').on('click', function(event) {
     var target = $(this.getAttribute('href'));
@@ -8,4 +7,33 @@ $('a[href^="#"]').on('click', function(event) {
             scrollTop: target.offset().top
         }, 1000);
     }
+});
+
+// Carousel code 
+$(document).ready(function(){
+    $('#carousel').slick({
+      centerMode: true,
+      centerPadding: '60px',
+      slidesToShow: 3,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: true,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
 });
