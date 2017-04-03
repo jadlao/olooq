@@ -12,28 +12,31 @@ $('a[href^="#"]').on('click', function(event) {
 // Carousel code 
 $(document).ready(function(){
     $('#carousel').slick({
-      centerMode: true,
-      centerPadding: '60px',
-      slidesToShow: 3,
-      responsive: [
-        {
-          breakpoint: 768,
-          settings: {
-            arrows: true,
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 3
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            arrows: true,
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 1
-          }
-        }
+        centerMode: true,
+        centerPadding: '10px',
+        slidesToShow: 3,
+        autoplay: true,
+        arrows: true,
+        dots: true,
+        responsive: [
+            {
+            breakpoint: 768,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 3
+              }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+              }
+            }
       ]
     });
 });

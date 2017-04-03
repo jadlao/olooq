@@ -39,6 +39,7 @@ header {
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: -55px; /* puts the search bar in the header */
 }
 
 .brand input {
@@ -59,11 +60,38 @@ header {
     color: #585858;
 }
 
+/* Dropdown menu */
+.categories {
+    width: 200px;
+    float: right;
+    margin-top: -55px;
+}
+
+.dropdown-menu li {
+    display: block;
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: #fff;
+    z-index: 10;
+    position: relative;
+}
+
+.dropdown-menu a:hover li {
+    background-color: #9AD58E;
+}
+
 /* Main content code */
 #updates {
-    padding: 50px;
+    padding: 10px 100px 40px 100px;
     height: 500px;
-    background-color: #fff;
+    background-color: #C1FFC1;
+    z-index: 1;
+    position: relative;
+}
+
+#updates h1 {
+    text-align: center;
 }
 
 /* Footer code */
