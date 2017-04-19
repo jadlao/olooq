@@ -9,77 +9,82 @@ body {
     color: #585858;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 h1 {
-    font-size: 60px;
+    font-size: 48px;
 }
 
 .slide {
-    padding: 150px 200px 60px 200px;
-    margin: 0 auto;
+    padding: 100px;
+    margin: 0;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
 }
 
 /* Transition arrow */
 .arrow {
-    margin-bottom: 0px;
-    text-align: center;
-    padding-top: 100px;
+    position: absolute;
+    left: 50%;
+    font-size: 48px;
+    bottom: 5%;
 }
 
 .slide background {
     opacity: 0;
 }
 
-a:hover {
-    
-}
-
-#mushrooms {
-    text-align: center;
-    background: url('../img/bg_mushrooms.jpg');
-}
-
-.hero {
-    height: 200px;
-    width: 200px;
-    margin: auto;
+.brand {
+    height: 180px;
+    width: 180px;
+    position: relative;
+    left: 20%;
 }
 
 #logo {
-    width: 200px;
-    position: relative;
+    width: 180px;
 }
 
-#onions {
+.slide1 {
+    background: url('../img/bg_mushrooms.jpg');
+}
+
+.slide2 {
     background: url('../img/bg_onions.jpg');
-    text-align: left;
 }
 
-#lemons {
+.slide3 {
     background: url('../img/bg_limesnlemons.jpg');
-    text-align: right;
 }
 
-#last {
+.slide4 {
     text-align: center;
     background: url('../img/pineapple.jpg');
-    padding-bottom: 200px;
 }
 
 /* Search bar code */
-#last input {
+.slide input {
     height: 60px;
-    width: 350px;
+    min-width: 200px !important;
     border-radius: 6px;
     font-size: 24px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-#last button {
+.slide button {
     height: 60px;
-    width: 80px;
+    width: 70px;
     border-radius: 6px;
-    font-size: 18px;
+    font-size: 24px;
     background-color: #47e077;
     color: #585858;
+}
+
+#looq:hover {
+    background-color: #7ce047;
 }
