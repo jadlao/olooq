@@ -32,17 +32,8 @@ h1 {
     left: 50%;
     font-size: 48px;
     bottom: 5%;
-}
-
-.slide background {
-    opacity: 0;
-}
-
-.brand {
-    height: 180px;
-    width: 180px;
-    position: relative;
-    left: 20%;
+    margin-left: -24px;
+    /* to account for half width of arrow */
 }
 
 #logo {
